@@ -27,32 +27,32 @@ const Navbar = () => {
         id="myTopnav"
       >
         <Link href="/">
-          <a className={styles.navbar_item} onClick={handleToggle}>
+          <a className={styles.navbar_item} >
             INICIO
           </a>
         </Link>
         <Link href="/que_hacemos">
-          <a className={styles.navbar_item} onClick={handleToggle}>
+          <a className={styles.navbar_item} >
             QUÉ HACEMOS
           </a>
         </Link>
         <Link href="/quienes_somos">
-          <a className={styles.navbar_item} onClick={handleToggle}>
+          <a className={styles.navbar_item} >
             QUIÉNES SOMOS
           </a>
         </Link>
         <Link href="/historia">
-          <a className={styles.navbar_item} onClick={handleToggle}>
+          <a className={styles.navbar_item} >
             HISTORIA
           </a>
         </Link>
         <Link href="/actividades">
-          <a className={styles.navbar_item} onClick={handleToggle}>
+          <a className={styles.navbar_item} >
             ACTIVIDADES
           </a>
         </Link>
         <Link href="/contacto">
-          <a className={styles.navbar_item} onClick={handleToggle}>
+          <a className={styles.navbar_item} >
             CONTACTO
           </a>
         </Link>
@@ -61,22 +61,22 @@ const Navbar = () => {
         </div>
         <hr className={styles.hr_navbar} />
         <Link href="/politicas">
-          <a className={styles.navbar_footer_item} onClick={handleToggle}>
+          <a className={styles.navbar_footer_item} >
             POLÍTICAS DE PRIVACIDAD
           </a>
         </Link>
         <Link href="/terminos">
-          <a className={styles.navbar_footer_item} onClick={handleToggle}>
+          <a className={styles.navbar_footer_item} >
             TÉRMINOS Y CONDICIONES
           </a>
         </Link>
         <Link href="/contacto">
-          <a className={styles.navbar_footer_item} onClick={handleToggle}>
+          <a className={styles.navbar_footer_item} >
             CONTACTO
           </a>
         </Link>
         <Link href="/pqr">
-          <a className={styles.navbar_footer_item} onClick={handleToggle}>
+          <a className={styles.navbar_footer_item} >
             PREGUNTAS FRECUENTES
           </a>
         </Link>
