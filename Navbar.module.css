@@ -1,0 +1,132 @@
+.topnav {
+    display: flex;
+}
+
+.navbar_item {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #67686d;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+}
+
+.navbar_item:hover {
+    font-weight: 600;
+    color: #ffcee4;
+}
+
+.toggler {
+    width: 25px;
+}
+
+.icon {
+    display: none;
+}
+
+.navbar_footer_item {
+    display: none;
+    font-size: 10px;
+    color: silver;
+    margin-bottom: 10px;
+    letter-spacing: 0.8px;
+}
+
+.instagram_link {
+    position: absolute;
+    right: -50px;
+    top: 35px;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    font-size: 10px;
+    text-decoration: none;
+    color: #333333;
+    margin-right: 20px;
+}
+
+.topnav .instagram_link_logo{
+    display: none;
+}
+
+.instagram_link_logo i{
+    color: #67686d;
+}
+
+.hr_navbar {
+    display: none;
+}
+
+.search_container{
+    padding: 14px 16px;
+}
+
+@media screen and (max-width: 922px) {
+
+    .topnav .navbar_item {
+        display: none;
+    }
+
+    .topnav .navbar_footer_item {
+        display: none;
+    }
+
+    .responsive {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 90px;
+        padding-bottom: 30px;
+        flex-direction: column;
+        background: white;
+        border: 1px solid rgb(216, 215, 215) ;
+    }
+
+
+    .icon {
+        display: block;
+        padding: 30px;
+    }
+
+    div.responsive {
+        position: relative;
+    }
+
+    div.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    div.responsive .navbar_item {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .responsive .navbar_footer_item {
+        float: none;
+        display: block;
+        padding: 0 16px;
+    }
+
+    .responsive .hr_navbar {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .instagram_link {
+        display: none;
+    }
+
+    .search_container{
+        display: none;
+    }
+
+    .responsive .instagram_link_logo {
+        margin-top: 20px;
+        display: block;
+        padding: 0 16px;
+    }
+
+}
