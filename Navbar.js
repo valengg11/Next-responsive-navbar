@@ -27,38 +27,58 @@ const Navbar = () => {
         id="myTopnav"
       >
         <Link href="/">
-          <a className={styles.navbar_item}>INICIO</a>
+          <a className={styles.navbar_item} onClick={handleToggle}>
+            INICIO
+          </a>
         </Link>
         <Link href="/que_hacemos">
-          <a className={styles.navbar_item}>QUÉ HACEMOS</a>
+          <a className={styles.navbar_item} onClick={handleToggle}>
+            QUÉ HACEMOS
+          </a>
         </Link>
         <Link href="/quienes_somos">
-          <a className={styles.navbar_item}>QUIÉNES SOMOS</a>
+          <a className={styles.navbar_item} onClick={handleToggle}>
+            QUIÉNES SOMOS
+          </a>
         </Link>
         <Link href="/historia">
-          <a className={styles.navbar_item}>HISTORIA</a>
+          <a className={styles.navbar_item} onClick={handleToggle}>
+            HISTORIA
+          </a>
         </Link>
         <Link href="/actividades">
-          <a className={styles.navbar_item}>ACTIVIDADES</a>
+          <a className={styles.navbar_item} onClick={handleToggle}>
+            ACTIVIDADES
+          </a>
         </Link>
         <Link href="/contacto">
-          <a className={styles.navbar_item}>CONTACTO</a>
+          <a className={styles.navbar_item} onClick={handleToggle}>
+            CONTACTO
+          </a>
         </Link>
         <div className={styles.search_container}>
           <i className="fas fa-search" />
         </div>
         <hr className={styles.hr_navbar} />
         <Link href="/politicas">
-          <a className={styles.navbar_footer_item}>POLÍTICAS DE PRIVACIDAD</a>
+          <a className={styles.navbar_footer_item} onClick={handleToggle}>
+            POLÍTICAS DE PRIVACIDAD
+          </a>
         </Link>
         <Link href="/terminos">
-          <a className={styles.navbar_footer_item}>TÉRMINOS Y CONDICIONES</a>
+          <a className={styles.navbar_footer_item} onClick={handleToggle}>
+            TÉRMINOS Y CONDICIONES
+          </a>
         </Link>
         <Link href="/contacto">
-          <a className={styles.navbar_footer_item}>CONTACTO</a>
+          <a className={styles.navbar_footer_item} onClick={handleToggle}>
+            CONTACTO
+          </a>
         </Link>
         <Link href="/pqr">
-          <a className={styles.navbar_footer_item}>PREGUNTAS FRECUENTES</a>
+          <a className={styles.navbar_footer_item} onClick={handleToggle}>
+            PREGUNTAS FRECUENTES
+          </a>
         </Link>
         <a
           href="https://www.instagram.com/"
